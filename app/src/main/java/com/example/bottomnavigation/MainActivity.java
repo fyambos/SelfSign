@@ -29,15 +29,15 @@ public class MainActivity extends AppCompatActivity {
                     replaceFragment(new HomeFragment());
                     break;
 
-                case R.id.shorts:
-                    replaceFragment(new ExposureFragment());
+                case R.id.schedule:
+                    replaceFragment(new ScheduleFragment());
                     break;
 
-                case R.id.subscriptions:
-                    replaceFragment(new SubscriptionFragment());
+                case R.id.attendance:
+                    replaceFragment(new AttendanceFragment());
                     break;
 
-                case R.id.library:
+                case R.id.manage:
                     replaceFragment(new ManageFragment());
                     break;
             }
