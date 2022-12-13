@@ -34,7 +34,12 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
                 case R.id.attendance:
-                    replaceFragment(new AttendanceFragment());
+                    // TODO : Fix AttendanceFragment
+                    //replaceFragment(new AttendanceFragment());
+                    //AttendanceFragment is a fragment nesting a ViewPager2 (ViewPager2 allows tab-switching between fragments)
+                    //Has a debug error: E/RecyclerView: No adapter attached; skipping layout
+
+                    replaceFragment(new AbsenceFragment());
                     break;
 
                 case R.id.manage:

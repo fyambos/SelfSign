@@ -39,6 +39,7 @@ public class AbsenceFragment extends Fragment {
     // TODO: Rename and change types and number of parameters
     public static AbsenceFragment newInstance(String param1, String param2) {
         AbsenceFragment fragment = new AbsenceFragment();
+
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +60,8 @@ public class AbsenceFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_absence, container, false);
+        View view = (ViewGroup) inflater.inflate(R.layout.fragment_absence, container, false);
+
+        return view;
     }
 }
