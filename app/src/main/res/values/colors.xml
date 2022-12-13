@@ -11,4 +11,7 @@
     <color name="sign">#5500ff </color>
     <color name="fond">#0163c8 </color>
     <color name="light_gray">#A0A0A0</color>
+    <color name="lighter_gray">#C8C8C8</color>
+    <color name="lightest_gray">#E6E6E6</color>
+
 </resources>
