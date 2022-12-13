@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.google.firebase.database.FirebaseDatabase;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link HomeFragment#newInstance} factory method to
@@ -69,6 +71,8 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getContext(), "Button clicked!", Toast.LENGTH_SHORT).show();
+                String validate_value = "no";
+                FirebaseDatabase.getInstance().getReference().child("attendance").child("-NJ0UrF7iLvK9hCiH8e6").child("attended").setValue(validate_value);
             }
         });
 
