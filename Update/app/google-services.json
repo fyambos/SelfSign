@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "892096027724",
+    "project_id": "update-ef050",
+    "storage_bucket": "update-ef050.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892096027724:android:102856b8aeff6ac636e8e9",
+        "android_client_info": {
+          "package_name": "com.example.update"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892096027724-k9jn7ghe92jmnhru530hdov510to2n99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTyVcG8n-Z6uagSl5-4Q9ghk0uQNvFONc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892096027724-k9jn7ghe92jmnhru530hdov510to2n99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
