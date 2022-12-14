@@ -87,7 +87,7 @@ public class HomeFragment extends Fragment {
 
         return view;
     }
-
+    /*
     public void getCourseData(String courseId) {
         // get a reference to the session node in the database
         DatabaseReference courseRef = FirebaseDatabase.getInstance().getReference().child("session");
@@ -258,4 +258,5 @@ public class HomeFragment extends Fragment {
             }
         });
     }
+    */
 }
